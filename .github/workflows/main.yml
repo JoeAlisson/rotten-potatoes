@@ -70,6 +70,7 @@ jobs:
         with:
           manifests: |
             k8s/web/deployment.yaml
+            k8s/web/service.yaml
           images: joealisson/rotten-potatoes:${{ github.run_number }}
     
 
