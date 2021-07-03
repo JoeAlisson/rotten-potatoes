@@ -43,7 +43,7 @@ jobs:
           push: true
           tags: |
             joealisson/rotten-potatoes:latest
-            joealisson/rotten-potatoes:%{{ github.run_number }}
+            joealisson/rotten-potatoes:${{ github.run_number }}
 
 
      
